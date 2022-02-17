@@ -1,0 +1,218 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: "....";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+     /*margin-top: 0;*/
+     /*height:35px;*/
+     /*background: black;*/
+     /*color: white;*/
+     /*display: inline;*/
+     /*text-align: center;*/
+     /*margin: 0 auto;*/
+     /*padding-left:300px;*/
+     /*padding-rightt:auto;*/
+}
+
+nav * {
+     float:left;
+     /*display: inline-block;*/
+     /*width: 10%;*/
+     color:white;
+     /*width:100%;*/
+}
+
+footer {
+
+}
+
+nav {
+     height:40px;
+     background: black;
+     color: white;
+     padding-left:200px;
+     padding-right: 200px;
+     /*background-color: black;*/
+     /*!*height: 3rem;*!*/
+     /*height:30px;*/
+     text-align: center;
+     /*margin: 0 auto;*/
+     /*margin:0 auto;*/
+     /*text-align: center;*/
+}
+/*nav>img {*/
+/*     float:left;*/
+/*}*/
+
+nav form input {
+     width: 100%;
+}
+
+img + a {
+     /*width: 100%;*/
+}
+
+ul {
+     /*float:left;*/
+     height: 50px;
+     width:75%;
+     /*text-align: center;*/
+}
+
+img#logo{
+     width:80px;
+     margin: 8px 8px 8px 0px;
+     /*margin-top:10px !important;*/
+     /*float:left;*/
+}
+
+li {
+     /*display: inline;*/
+     /*border-left: 1px solid darkgray;*/
+     text-align: center;
+}
+
+li a {
+     color: white;
+     text-decoration: none;
+     border-left: 1px solid darkgray;
+     padding: 10px 20px;
+     font-size: 0.8rem;
+     /*line-height: 40px;*/
+}
+
+a#signin {
+     padding-right: 50px;
+}
+
+#signin img {
+     width:15px;
+     margin-right: 5px;
+}
+
+
+
+form {
+     border-left: 1px solid darkgray;
+     width:190px;
+     margin-top:7px;
+     padding-left: 10px;
+}
+
+::placeholder {
+     color: black;
+     font-size: 1em;
+     font-family: sans-serif;
+     font-weight: bold;
+}
+
+.content {
+     font-family: Arial,Helvetica,freesans,sans-serif;
+     padding: 20px 200px;
+     text-align: left;
+}
+
+h1 {
+     font-size: 1.7rem;
+     font-weight: bold;
+}
+
+h1 span.date {
+     color: darkgray;
+     font-size: 1.7rem;
+     font-weight: normal;
+     float: right;
+}
+
+.article .left {
+     /*position: relative;*/
+}
+
+.article .left img {
+     float: left;
+     max-width: 50%;
+     height: 100%;
+     padding-right: 10px;
+}
+
+/*.article .right{*/
+/*     float: left;*/
+/*     !*max-width: 100%;*!*/
+/*}*/
+
+.article .right-upper img, .article .left-upper img {
+     float: left;
+     max-width: 25%;
+     padding-left: 10px;
+}
+
+.article .left-upper img {
+     padding-top: 5px;
+}
+
+.article  .left .title {
+     position: absolute;
+     bottom: 300px;
+
+}
+
+.lower {
+     padding-top: 30px;
+}
+
+.lower h1 {
+     border-left: 2px solid red;
+     padding-left: 10px;
+}
+
+.lower img {
+     float: left;
+     max-width: 33.3333%;
+     /*padding: 0 5px;*/
+}
+
+
+
+img[alt="image6"] {
+     padding-right: 5px;
+}
+
+img[alt="image7"] {
+     padding: 0 2.5px;
+}
+
+img[alt="image8"] {
+     padding-left: 5px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
